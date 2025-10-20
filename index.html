@@ -10,7 +10,9 @@
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -48,52 +50,245 @@
     </header>
     <div id="dummy-nav"></div>
     <main>
-        <div class="body1">
+        <div class="body1" id="home-image">
             <div class="task-bar">
-                <a href="#"><div id="task1" class="tasks" ><h4><i class="ri-menu-line"></i> All</h4></div></a>
-                <a href="#"><div id="task2" class="tasks" ><b><h4>Today's Deals</h4></b></div></a>
-                <a href="#"><div id="task3" class="tasks" ><b><h4>Registry</h4></b></div></a>
-                <a href="#"><div id="task4" class="tasks" ><b><h4>Prime Video</h4></b></div></a>
-                <a href="#"><div id="task5" class="tasks" ><b><h4>Gift Cards</h4></b></div></a>
-                <a href="#"><div id="task6" class="tasks" ><b><h4>Customer Service</h4></b></div></a>
-                <a href="#"><div id="task7" class="tasks" ><b><h4>Sell</h4></b></div></a>
+                <a href="#">
+                    <div id="task1" class="tasks">
+                        <h4><i class="ri-menu-line"></i> All</h4>
+                    </div>
+                </a>
+                <a href="#">
+                    <div id="task2" class="tasks"><b>
+                            <h4>Today's Deals</h4>
+                        </b></div>
+                </a>
+                <a href="#">
+                    <div id="task3" class="tasks"><b>
+                            <h4>Registry</h4>
+                        </b></div>
+                </a>
+                <a href="#">
+                    <div id="task4" class="tasks"><b>
+                            <h4>Prime Video</h4>
+                        </b></div>
+                </a>
+                <a href="#">
+                    <div id="task5" class="tasks"><b>
+                            <h4>Gift Cards</h4>
+                        </b></div>
+                </a>
+                <a href="#">
+                    <div id="task6" class="tasks"><b>
+                            <h4>Customer Service</h4>
+                        </b></div>
+                </a>
+                <a href="#">
+                    <div id="task7" class="tasks"><b>
+                            <h4>Sell</h4>
+                        </b></div>
+                </a>
             </div>
+
+            <button id="right-button" class="home-img-btn"><i class="fa-solid fa-greater-than"></i></button>
+            <button id="left-button" class="home-img-btn"><i class="fa-solid fa-less-than"></i></button>
+
             <div class="image-dummy"></div>
+
             <div class="containers">
                 <div class="box">
-                    <div class="heading"><h2>Get Your Game On</h2></div>
+                    <div class="heading">
+                        <h2>Shop Fashion for less</h2>
+                    </div>
                     <div class="image">
                         <div class="photo">
                             <img src="Images/Box1Image1.jpg" alt="" class="box-img">
                             <p>Jeans Under $50</p>
                         </div>
                         <div class="photo">
-                            <img src="Images/Box1Image1.jpg" alt="" class="box-img">
-                            <p>Jeans Under $50</p>
+                            <img src="Images/Box1Image2.jpg" alt="" class="box-img">
+                            <p>Tops under $25</p>
                         </div>
                         <div class="photo">
-                            <img src="Images/Box1Image1.jpg" alt="" class="box-img">
-                            <p>Jeans Under $50</p>
+                            <img src="Images/Box1Image3.jpg" alt="" class="box-img">
+                            <p>Dresses under $30</p>
                         </div>
                         <div class="photo">
-                            <img src="Images/Box1Image1.jpg" alt="" class="box-img">
-                            <p>Jeans Under $50</p>
+                            <img src="Images/Box1Image4.jpg" alt="" class="box-img">
+                            <p>Shoes under $50</p>
                         </div>
                     </div>
-                    <div class="explore"><a href="#">Explore Game</a></div>
+                    <div class="explore"><a href="#">See all deals</a></div>
                 </div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
+
+                <div class="box">
+                    <div class="heading">
+                        <h2>Get Your Game On</h2>
+                    </div>
+                    <div class="single-image">
+                        <img src="Images/Box2Image.jpg" alt="" class="box-single-img">
+                    </div>
+                    <div class="explore"><a href="#">Shop gaming</a></div>
+                </div>
+
+                <div class="box">
+                    <div class="heading">
+                        <h2>Shop for your home essentials</h2>
+                    </div>
+                    <div class="image">
+                        <div class="photo">
+                            <img src="Images/Box3Image1.jpg" alt="" class="box-img">
+                            <p>Cleaning Tools</p>
+                        </div>
+                        <div class="photo">
+                            <img src="Images/Box3Image2.jpg" alt="" class="box-img">
+                            <p>Home Storage</p>
+                        </div>
+                        <div class="photo">
+                            <img src="Images/Box3Image3.jpg" alt="" class="box-img">
+                            <p>Home Decor</p>
+                        </div>
+                        <div class="photo">
+                            <img src="Images/Box3Image4.jpg" alt="" class="box-img">
+                            <p>Bedding</p>
+                        </div>
+                    </div>
+                    <div class="explore"><a href="#">Discover more in Home</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="heading">
+                        <h2>New home arrivals under $50</h2>
+                    </div>
+                    <div class="image">
+                        <div class="photo">
+                            <img src="Images/Box4Image1.jpg" alt="" class="box-img">
+                            <p>Kitchen & Dining</p>
+                        </div>
+                        <div class="photo">
+                            <img src="Images/Box4Image2.jpg" alt="" class="box-img">
+                            <p>Home Improvement</p>
+                        </div>
+                        <div class="photo">
+                            <img src="Images/Box4Image3.jpg" alt="" class="box-img">
+                            <p>Decor</p>
+                        </div>
+                        <div class="photo">
+                            <img src="Images/Box4Image4.jpg" alt="" class="box-img">
+                            <p>Beadding & Bath</p>
+                        </div>
+                    </div>
+                    <div class="explore"><a href="#">Shop the latest from Home</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="heading">
+                        <h2>Refresh your space</h2>
+                    </div>
+                    <div class="image">
+                        <div class="photo">
+                            <img src="Images/Box5Image1.jpg" alt="" class="box-img">
+                            <p>Dining</p>
+                        </div>
+                        <div class="photo">
+                            <img src="Images/Box5Image2.jpg" alt="" class="box-img">
+                            <p>Home</p>
+                        </div>
+                        <div class="photo">
+                            <img src="Images/Box5Image3.jpg" alt="" class="box-img">
+                            <p>Kitchen</p>
+                        </div>
+                        <div class="photo">
+                            <img src="Images/Box5Image4.jpg" alt="" class="box-img">
+                            <p>Health and Beauty</p>
+                        </div>
+                    </div>
+                    <div class="explore"><a href="#">See more</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="heading">
+                        <h2>Fashion trends you like</h2>
+                    </div>
+                    <div class="image">
+                        <div class="photo">
+                            <img src="Images/Box6Image1.jpg" alt="" class="box-img">
+                            <p>Dresses</p>
+                        </div>
+                        <div class="photo">
+                            <img src="Images/Box6Image2.jpg" alt="" class="box-img">
+                            <p>Knits</p>
+                        </div>
+                        <div class="photo">
+                            <img src="Images/Box6Image3.jpg" alt="" class="box-img">
+                            <p>Jackets</p>
+                        </div>
+                        <div class="photo">
+                            <img src="Images/Box6Image4.jpg" alt="" class="box-img">
+                            <p>Jewelry</p>
+                        </div>
+                    </div>
+                    <div class="explore"><a href="#">Explore more</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="heading">
+                        <h2>Easy updates for elevated spaces</h2>
+                    </div>
+                    <div class="image">
+                        <div class="photo">
+                            <img src="Images/Box7Image1.jpg" alt="" class="box-img">
+                            <p>Baskets & hampers</p>
+                        </div>
+                        <div class="photo">
+                            <img src="Images/Box7Image2.jpg" alt="" class="box-img">
+                            <p>Hardware</p>
+                        </div>
+                        <div class="photo">
+                            <img src="Images/Box7Image3.jpg" alt="" class="box-img">
+                            <p>Accent furniture</p>
+                        </div>
+                        <div class="photo">
+                            <img src="Images/Box7Image4.jpg" alt="" class="box-img">
+                            <p>Wallpaper & paint</p>
+                        </div>
+                    </div>
+                    <div class="explore"><a href="#">Shop home products</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="heading">
+                        <h2>Wireless Tech</h2>
+                    </div>
+                    <div class="image">
+                        <div class="photo">
+                            <img src="Images/Box8Image1.jpg" alt="" class="box-img">
+                            <p>Smartphones</p>
+                        </div>
+                        <div class="photo">
+                            <img src="Images/Box8Image2.jpg" alt="" class="box-img">
+                            <p>Watches</p>
+                        </div>
+                        <div class="photo">
+                            <img src="Images/Box8Image3.jpg" alt="" class="box-img">
+                            <p>Headphones</p>
+                        </div>
+                        <div class="photo">
+                            <img src="Images/Box8Image4.jpg" alt="" class="box-img">
+                            <p>Tablets</p>
+                        </div>
+                    </div>
+                    <div class="explore"><a href="#">Discover more</a>
+                    </div>
+                </div>
 
             </div>
 
-            <p style="color: red;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio consequatur delectus, voluptatibus consequuntur ut ratione! Voluptatibus sunt rem laboriosam commodi. Facilis pariatur id cum distinctio. Accusantium deleniti dolor alias ipsum?</p>
-            <div style="height: 100px; width: 100px; background-color: chartreuse;"></div>
+
         </div>
     </main>
 
