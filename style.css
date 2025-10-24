@@ -26,7 +26,7 @@ html,body{
     justify-content: space-around;
     position: fixed;
     color: white;
-    z-index: 1;
+    z-index: 5;
 }
 
 #logo{
@@ -239,4 +239,56 @@ main{
 .box-single-img{
     height: 100%;
     width: 100%;
+}
+
+.outer-rectangle{
+    height: 17rem;
+    width: 97%;
+    background-color: crimson;
+    margin: 1.3rem;
+    overflow: hidden;
+}
+
+.rectangle1{
+    height: 15rem;
+    width: 200rem;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* position: absolute;
+    top: 84rem; */
+}
+
+.rectangle-boxes{
+    height: 13rem;
+    width: 12rem;
+    background-color: chartreuse;
+    margin: 1rem;
+    
+}
+
+.rect-btn{
+    height: 6rem;
+    width: 4rem;
+    background-color: rgb(255, 255, 255);
+    z-index: 4;
+    top: 4rem;
+    margin: 0.5rem;
+    font-size: x-large;
+    color: rgba(0, 0, 0, 0.592);
+    border: none;
+    /* visibility: hidden; */
+}
+
+#left-rect-btn{
+    position: relative;
+    border-radius: 0 4px 4px 0;
+    left: 0.5rem;
+}
+
+#right-rect-btn{
+    position: relative;
+    border-radius: 4px 0 0 4px;
+    left: 81.4rem;
 }
