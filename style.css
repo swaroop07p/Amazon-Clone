@@ -262,9 +262,9 @@ main{
 
 .rectangle-boxes{
     height: 13rem;
-    width: 12rem;
+    width: 13rem;
     background-color: chartreuse;
-    margin: 1rem;
+    margin: 1rem 0 1rem 0;
     
 }
 
@@ -278,17 +278,19 @@ main{
     font-size: x-large;
     color: rgba(0, 0, 0, 0.592);
     border: none;
+    top: 87.5rem;
     /* visibility: hidden; */
 }
 
 #left-rect-btn{
-    position: relative;
+    position: absolute;
     border-radius: 0 4px 4px 0;
-    left: 0.5rem;
+    left: 0.8rem;
+
 }
 
 #right-rect-btn{
-    position: relative;
+    position: absolute;
     border-radius: 4px 0 0 4px;
-    left: 81.4rem;
+    left: 89rem;
 }
