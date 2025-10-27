@@ -244,15 +244,16 @@ main{
 .outer-rectangle{
     height: 17rem;
     width: 97%;
-    background-color: crimson;
+    background-color: rgb(235, 228, 228);
     margin: 1.3rem;
     overflow: hidden;
+    border: 1px solid black;
 }
 
 .rectangle1{
     height: 15rem;
     width: 200rem;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -263,8 +264,9 @@ main{
 .rectangle-boxes{
     height: 13rem;
     width: 13rem;
-    background-color: chartreuse;
-    margin: 1rem 0 1rem 0;
+    background-color: rgb(255, 255, 255);
+    /* margin: 1rem 0 1rem 0; */
+    padding: 1rem;
     
 }
 
@@ -293,4 +295,10 @@ main{
     position: absolute;
     border-radius: 4px 0 0 4px;
     left: 89rem;
+}
+
+.rect1-img{
+    width: 90%;
+    height: 100%;
+
 }
