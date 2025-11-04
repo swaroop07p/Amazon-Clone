@@ -30,6 +30,5 @@ left_btn.addEventListener("click",()=>{
 });
 
 rect_right_btn.addEventListener("click",()=>{
-    // rect1.style.transform="transitionX(400px)";
     
 })
