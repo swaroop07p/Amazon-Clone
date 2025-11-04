@@ -305,3 +305,48 @@ main{
     width: 90%;
     height: 100%;
 }
+
+.signup{
+    height: 11rem;
+    width: 100%;
+    background-color: rgb(235, 228, 228);
+    text-align: center;
+    padding-top: 1.5rem;
+    margin-top: 1rem;
+}
+
+#signup-heading{
+    padding: 0.7rem;
+    font-size: xx-large;
+}
+
+#sign-in{
+    padding: 0.5rem;
+    width: 15rem;
+    background-color: #ffce12;
+    border-radius: 1.5rem;
+    border: none;
+}
+
+#sign-in:hover{
+    cursor: pointer;
+    background-color: #efc006;
+}
+
+#signup-para{
+    padding: 0.5rem;
+    font-size: small;
+}
+
+#signup-para a{
+    text-decoration: underline;
+}
+
+.back-to-top{
+    height: 3.5rem;
+    width: 100%;
+    background-color: #232f3ef0;
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+}
