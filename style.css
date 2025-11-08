@@ -363,8 +363,15 @@ footer{
     height: 25rem;
     width: 100%;
     background-color: #232F3E;
-    color: white;
     justify-content: space-around;
+}
+
+#foo1{
+    margin-left: 15rem;
+}
+
+#foo4{
+    margin-right: 15rem;
 }
 
 .foo li{
@@ -373,4 +380,31 @@ footer{
 
 .foo h3{
     font-weight: 800;
+}
+
+.footer-second{
+    height: 7rem;
+    width: 100%;
+    background-color: #232F3E;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.footer-second img{
+    width: 6rem;
+    margin-top: 6.5rem;
+    margin-left: 25rem;
+}
+
+.footer-btn{
+    height: 2rem;
+    width: 10rem;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+}
+
+#country{
+    margin-right: 25rem;
 }
