@@ -30,5 +30,5 @@ left_btn.addEventListener("click",()=>{
 });
 
 rect_right_btn.addEventListener("click",()=>{
-    console.log("clisk");
+    console.log("click");
 })
