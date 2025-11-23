@@ -352,10 +352,15 @@ main{
     padding-top: 1rem;
 }
 
+.back-to-top:hover{
+    cursor: pointer;
+    background-color: #232f3ed3;
+}
+
 footer{
-    height: 70rem;
+    height: 59rem;
     width: 100%;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
 
 }
 
@@ -412,6 +417,7 @@ footer{
     border: 1px solid white;
     border-radius: 2px;
     color: white;
+    cursor: pointer;
 }
 
 #country{
@@ -433,7 +439,7 @@ footer{
 }
 
 .footer-third{
-    height: 25rem;
+    height: 23rem;
     width: 100%;
     background-color: #131A22;
     color: white;
@@ -441,4 +447,29 @@ footer{
     display: flex;
     justify-content: space-around;
     padding-top: 2rem;
+}
+
+.footer-last{
+    height: 4rem;
+    width: 100%;
+    background-color: #131A22;
+}
+
+.last{
+    margin: 5px 10px;
+}
+
+.last a:hover{
+    text-decoration: underline;
+}
+
+.last a{
+    color: rgba(255, 255, 255, 0.647);
+    font-size: smaller;
+}
+
+#last5{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.647);
+    font-size: smaller;
 }
