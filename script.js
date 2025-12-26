@@ -31,4 +31,5 @@ left_btn.addEventListener("click",()=>{
 
 rect_right_btn.addEventListener("click",()=>{
     console.log("touch! click");
+    console.log("touch! and sense");
 })
